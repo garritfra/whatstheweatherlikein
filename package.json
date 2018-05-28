@@ -6,7 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "whatstheweatherlikein": "app.js"
+    "whatstheweatherlikein": "app.js",
+    "forecastfor": "app.js",
+    "weatherin": "app.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/garritfra/whatstheweatherlikein/issues"
   },
-  "homepage": "https://github.com/garritfra/whatstheweatherlikein#readme"
+  "homepage": "https://github.com/garritfra/whatstheweatherlikein#readme",
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  }
 }
